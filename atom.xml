@@ -6,7 +6,7 @@
   <link href="https://anzl.github.io/atom.xml" rel="self"/>
   
   <link href="https://anzl.github.io/"/>
-  <updated>2021-12-28T08:25:42.305Z</updated>
+  <updated>2021-12-28T13:10:39.458Z</updated>
   <id>https://anzl.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://anzl.github.io/2021/12/26/hadoop-wan-quan-fen-bu-shi-an-zhuang/"/>
     <id>https://anzl.github.io/2021/12/26/hadoop-wan-quan-fen-bu-shi-an-zhuang/</id>
     <published>2021-12-26T02:53:00.000Z</published>
-    <updated>2021-12-28T08:25:42.305Z</updated>
+    <updated>2021-12-28T13:10:39.458Z</updated>
     
     
       
@@ -44,23 +44,29 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://anzl.github.io/2021/12/22/hello-world/"/>
-    <id>https://anzl.github.io/2021/12/22/hello-world/</id>
-    <published>2021-12-22T11:50:36.985Z</published>
-    <updated>2021-12-22T11:50:36.985Z</updated>
+    <title>Spark集群环境搭建</title>
+    <link href="https://anzl.github.io/2021/12/26/spark-ji-qun-fen-bu-shi-an-zhuang/"/>
+    <id>https://anzl.github.io/2021/12/26/spark-ji-qun-fen-bu-shi-an-zhuang/</id>
+    <published>2021-12-26T02:53:00.000Z</published>
+    <updated>2021-12-28T13:20:51.017Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;Spark集群环境搭建-Standalone模式&quot;&gt;&lt;a href=&quot;#Spark集群环境搭建-Standalone模式&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
+    <category term="大数据" scheme="https://anzl.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+    <category term="大数据" scheme="https://anzl.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    <category term="spark" scheme="https://anzl.github.io/tags/spark/"/>
     
   </entry>
   

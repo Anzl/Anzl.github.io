@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 无名之辈">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="Spark集群环境搭建, 无名之辈">
+    <meta name="description" content="Spark集群环境搭建">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | 无名之辈</title>
+    <title>Spark集群环境搭建 | 无名之辈</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/spark/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">Spark集群环境搭建</h1>
                 </div>
             </div>
         </div>
@@ -325,116 +325,39 @@
 
 
 
-<main class="post-container content">
+<main class="container content">
 
     
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
-<style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
-    }
-
-    #articleContent :focus {
-        outline: none;
-    }
-
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
-    }
-
-    .toc-widget {
-        width: 345px;
-        padding-left: 20px;
-    }
-
-    .toc-widget .toc-title {
-        padding: 35px 0 15px 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content {
-        padding-bottom: 30px;
-        overflow: auto;
-    }
-
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-
-        position: absolute;
-        right: 23.5vw;
-        display: block;
-    }
-
-    #toc-content .is-active-link {
-        color: #42b983;
-    }
-
-    #floating-toc-btn {
-        position: fixed;
-        right: 15px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
-    }
-
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
-    }
-
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
-    }
-</style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
+    <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/">
+                                <span class="chip bg-color">大数据</span>
+                            </a>
+                        
+                            <a href="/tags/spark/">
+                                <span class="chip bg-color">spark</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/" class="post-category">
+                                大数据
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -443,7 +366,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-22
+                    2021-12-26
                 </div>
                 
 
@@ -464,19 +387,80 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure>
+                <h1 id="Spark集群环境搭建-Standalone模式"><a href="#Spark集群环境搭建-Standalone模式" class="headerlink" title="Spark集群环境搭建(Standalone模式)"></a>Spark集群环境搭建(Standalone模式)</h1><h2 id="前置准备"><a href="#前置准备" class="headerlink" title="前置准备"></a>前置准备</h2><p>CentOS7、jdk1.8、scala-2.11.12、spark-2.3.3、hadoop-2.7 .7</p>
+<p>hadoop集群</p>
+<h2 id="一、集群规划"><a href="#一、集群规划" class="headerlink" title="一、集群规划"></a>一、集群规划</h2><p><img src="/images/spark/1.jpg"></p>
+<h2 id="二、环境搭建"><a href="#二、环境搭建" class="headerlink" title="二、环境搭建"></a>二、环境搭建</h2><h3 id="2-1上传"><a href="#2-1上传" class="headerlink" title="2.1上传"></a>2.1上传</h3><p>将scala和spark压缩包上传到之前搭建好的hadoop集群容器</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@master ~]#docker run -d --name hadoop01 --hostname hadoop01 -P -p 8080:8080 -p 4040:4040 -p 18080:18080  --privileged a4cb95de4776 /usr/sbin/init</span><br><span class="line">[root@master ~]#docker run -d --name hadoop01 --hostname hadoop01 -P -p 50070:50070 -p 8088:8088 -p 19888:19888 -p 8080:8080 -p 4040:4040 -p 18080:18080 -p 9000:9000 --privileged a4cb95de4776 /usr/sbin/init</span><br><span class="line">[root@master ~]#docker run -d --name hadoop01 --hostname hadoop01 -P -p 50070:50070 -p 8088:8088 -p 19888:19888 -p 8080:8080 -p 4040:4040 -p 18080:18080 -p 9000:9000 --privileged a4cb95de4776 /usr/sbin/init</span><br></pre></td></tr></tbody></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@node2:/home/bigdate# docker cp scala-2.11.12.tgz 3a6e884f5582:/home/anzhaoliang</span><br><span class="line">root@node2:/home/bigdate# docker cp spark-2.3.3-bin-hadoop2.7.tgz 3a6e884f5582:/home/anzhaoliang</span><br></pre></td></tr></tbody></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="2-2解压"><a href="#2-2解压" class="headerlink" title="2.2解压"></a>2.2解压</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 解压</span></span><br><span class="line">[anzhaoliang@hadoop01 ~]$ tar -zxvf spark-2.4.5-bin-hadoop2.7.tgz -C /opt/software/</span><br><span class="line"><span class="meta">#</span><span class="bash"> 重命名（可选）</span></span><br><span class="line">[anzhaoliang@hadoop01 ~]$ mv /opt/software/spark-2.4.5-bin-hadoop2.7/ /opt/software/spark-2.3.3</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="2-3配置环境变量"><a href="#2-3配置环境变量" class="headerlink" title="2.3配置环境变量"></a>2.3配置环境变量</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 ~]$ sudo vim /etc/profile								#五台主机都配一下</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">configure</span></span><br><span class="line">export JAVA_HOME=/opt/moudle/jdk1.8.0_191</span><br><span class="line">export HADOOP_HOME=/opt/software/hadoop-2.7.7</span><br><span class="line">export SCALA_HOME=/opt/software/scala-2.11.12</span><br><span class="line">export SPARK_HOME=/opt/software/spark-2.3.3-bin-hadoop2.7</span><br><span class="line">export JRE_HOME=${JAVA_HOME}/jre</span><br><span class="line">export CLASSPATH=${JAVA_HOME}/lib:${JRE_HOME}/lib</span><br><span class="line">export PATH=${JAVA_HOME}/bin:${HADOOP_HOME}/bin:${HADOOP_HOME}/sbin:${SCALA_HOME}/bin:${SPARK_HOME}/bin:$PATH</span><br></pre></td></tr></tbody></table></figure>
+
+<p>使环境变量生效</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 ~]$ source /etc/profile.d/env.sh						#五台主机都配一下</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="2-4修改配置"><a href="#2-4修改配置" class="headerlink" title="2.4修改配置"></a>2.4修改配置</h3><h4 id="2-4-1修改spark-env-sh"><a href="#2-4-1修改spark-env-sh" class="headerlink" title="2.4.1修改spark-env.sh"></a>2.4.1修改spark-env.sh</h4><p>进入 <code>${SPARK_HOME}/conf</code> 目录下，复制一份<code>spark-env.sh.template</code>文件进行更改</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 conf]$ cp spark-env.sh.template spark-env.sh</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">export JAVA_HOME=/opt/moudle/jdk1.8.0_301</span><br><span class="line">export SCALA_HOME=/opt/moudle/scala-2.11.12</span><br><span class="line">SPARK_MASTER_HOST=hadoop01</span><br><span class="line"><span class="meta">#</span><span class="bash"> 默认端口就是7077, 可以省略不配</span></span><br><span class="line">SPARK_MASTER_PORT=7077</span><br></pre></td></tr></tbody></table></figure>
+
+<h4 id="2-4-2修改-slaves-文件"><a href="#2-4-2修改-slaves-文件" class="headerlink" title="2.4.2修改 slaves 文件"></a>2.4.2修改 slaves 文件</h4><p>添加 worker 节点,这里配置了四个工作节点</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 conf]$ cp slaves.template slaves</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hadoop02</span><br><span class="line">hadoop03</span><br><span class="line">hadoop04</span><br><span class="line">hadoop05</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="2-5分发"><a href="#2-5分发" class="headerlink" title="2.5分发"></a>2.5分发</h3><p>如果之前配置过scala环境直接执行分发spark代码块</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 将scala-2.11.12文件夹分发到hadoop02</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r /opt/software/spark-2.3.3/ anzhaoliang@hadoop02:/opt/software/</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将scala-2.11.12文件夹分发到hadoop03</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r /opt/software/spark-2.3.3/ anzhaoliang@hadoop03:/opt/software/</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将scala-2.11.12文件夹分发到hadoop04</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r /opt/software/spark-2.3.3/ anzhaoliang@hadoop04:/opt/software/</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将scala-2.11.12文件夹分发到hadoop05</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r /opt/software/spark-2.3.3/ anzhaoliang@hadoop05:/opt/software/</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 将spark-2.3.3文件夹分发到hadoop02</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r /opt/software/spark-2.3.3/ anzhaoliang@hadoop02:/opt/software/</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-2.3.3文件夹分发到hadoop03</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r /opt/software/spark-2.3.3/ anzhaoliang@hadoop03:/opt/software/</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-2.3.3文件夹分发到hadoop04</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r /opt/software/spark-2.3.3/ anzhaoliang@hadoop04:/opt/software/</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-2.3.3文件夹分发到hadoop05</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r /opt/software/spark-2.3.3/ anzhaoliang@hadoop05:/opt/software/</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="三、启动集群"><a href="#三、启动集群" class="headerlink" title="三、启动集群"></a>三、启动集群</h2><p><strong>在hadoop01上启动Spark集群</strong></p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 进入/opt/software/spark-2.3.3/sbin目录并启动集群</span></span><br><span class="line">[xiaokang@hadoop01 sbin]$ ./start-all.sh</span><br></pre></td></tr></tbody></table></figure>
+
+<p>jps进程查看</p>
+<p><img src="/images/spark/2.png" alt="image-20210810095303528"></p>
+<p>webui查看</p>
+<p><img src="/images/spark/3.png" alt="image-20210810095443250"></p>
+<h2 id="四、测试"><a href="#四、测试" class="headerlink" title="四、测试"></a>四、测试</h2><h3 id="4-1计算PI"><a href="#4-1计算PI" class="headerlink" title="4.1计算PI"></a>4.1计算PI</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 sbin]$ spark-submit --master spark://hadoop01:7077 --executor-memory 1G --total-executor-cores 8 --executor-cores 2 --class org.apache.spark.examples.SparkPi /opt/software/spark-2.3.3/examples/jars/spark-examples_2.11-2.3.3.jar 1000</span><br></pre></td></tr></tbody></table></figure>
+
+<p><img src="/images/spark/4.png" alt="image-20210810111005884"></p>
+<p>Webui查看资源分配情况</p>
+<p><img src="/images/spark/5.png" alt="image-20210810111148687"></p>
+<h2 id="五、配置任务历史服务器"><a href="#五、配置任务历史服务器" class="headerlink" title="五、配置任务历史服务器"></a>五、配置任务历史服务器</h2><p>在 Spark-shell 没有退出之前， 我们是可以看到正在执行的任务的日志情况：<code>http://ip:4040</code>，但是退出 Spark-shell 之后， 执行的所有任务记录全部丢失。所以需要配置任务的历史服务器, 方便在任何需要的时候去查看日志。</p>
+<h3 id="5-1-修改spark-defaults-conf文件"><a href="#5-1-修改spark-defaults-conf文件" class="headerlink" title="5.1 修改spark-defaults.conf文件"></a>5.1 修改<code>spark-defaults.conf</code>文件</h3><p>进入 <code>${SPARK_HOME}/conf</code> 目录下，复制一份<code>spark-defaults.conf.template</code>文件进行更改</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 conf]$ cp spark-defaults.conf.template spark-defaults.conf</span><br><span class="line">[anzhaoliang@hadoop01 conf]$ vim spark-defaults.conf</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">spark.master                     spark://hadoop01:7077</span><br><span class="line">spark.eventLog.enabled           true</span><br><span class="line">spark.eventLog.dir               hdfs://hadoop01:9000/spark-jobhistory			#此处spark-jobhistory目录必须已经存在</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>注意：</strong> <code>hdfs://hadoop01:9000/spark-jobhistory</code> 目录必须提前存在, 名称可自定义。,然后再修改spark-defaults.conf</p>
+<p>在HDFS上创建<code>spark-jobhistory</code>目录</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 ~]$ hdfs dfs -mkdir /spark-jobhistory</span><br></pre></td></tr></tbody></table></figure>
+
+<p><img src="/images/spark/6.png" alt="image-20210810111648537"></p>
+<h3 id="5-2-修改spark-env-sh文件，添加如下配置"><a href="#5-2-修改spark-env-sh文件，添加如下配置" class="headerlink" title="5.2 修改spark-env.sh文件，添加如下配置"></a>5.2 修改<code>spark-env.sh</code>文件，添加如下配置</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 conf]$ vim spark-env.sh</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export SPARK_HISTORY_OPTS="-Dspark.history.ui.port=18080 -Dspark.history.retainedApplications=30 -Dspark.history.fs.logDirectory=hdfs://hadoop01:9000/spark-jobhistory"</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="5-3-分发配置文件"><a href="#5-3-分发配置文件" class="headerlink" title="5.3 分发配置文件"></a>5.3 分发配置文件</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 将spark-defaults.conf分发到hadoop02</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r spark-defaults.conf anzhaoliang@hadoop02:/opt/software/spark-2.3.3/conf</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-defaults.conf分发到hadoop03</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r spark-defaults.conf anzhaoliang@hadoop03:/opt/software/spark-2.3.3/conf</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-defaults.conf分发到hadoop04</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r spark-defaults.conf anzhaoliang@hadoop04:/opt/software/spark-2.3.3/conf</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-defaults.conf分发到hadoop05</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r spark-defaults.conf anzhaoliang@hadoop05:/opt/software/spark-2.3.3/conf</span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-env.sh分发到hadoop02</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r spark-env.sh anzhaoliang@hadoop02:/opt/software/spark-2.3.3/conf</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-env.sh分发到hadoop03</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r spark-env.sh anzhaoliang@hadoop03:/opt/software/spark-2.3.3/conf</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-env.sh分发到hadoop04</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r spark-env.sh anzhaoliang@hadoop04:/opt/software/spark-2.3.3/conf</span><br><span class="line"><span class="meta">#</span><span class="bash"> 将spark-env.sh分发到hadoop05</span></span><br><span class="line">[anzhaoliang@hadoop01 hadoop]$ sudo scp -r spark-env.sh anzhaoliang@hadoop05:/opt/software/spark-2.3.3/conf</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="5-4-启动历史服务器"><a href="#5-4-启动历史服务器" class="headerlink" title="5.4 启动历史服务器"></a>5.4 启动历史服务器</h3><p>先停止hadoop和spark集群</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 sbin]$ stop-all.sh</span><br><span class="line">[anzhaoliang@hadoop01 sbin]$ mr-jobhistory-daemon.sh stop historyserver</span><br><span class="line">[anzhaoliang@hadoop01 sbin]$ ./stop-all.sh</span><br><span class="line">    [anzhaoliang@hadoop01 sbin]$ ./stop-history-server.sh</span><br></pre></td></tr></tbody></table></figure>
+
+<p>首先启动HDFS，然后启动Spark集群，最后启动任务历史服务器</p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 sbin]$ start-all.sh</span><br><span class="line">[anzhaoliang@hadoop01 sbin]$ mr-jobhistory-daemon.sh start historyserver</span><br><span class="line">[anzhaoliang@hadoop01 sbin]$ ./start-all.sh</span><br><span class="line">[anzhaoliang@hadoop01 sbin]$ ./start-history-server.sh</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>jps进程查看</strong></p>
+<p><img src="/images/spark/7.png" alt="image-20210810103148022"></p>
+<p><strong>WebUI查看</strong></p>
+<p><img src="/images/spark/8.png" alt="image-20210810113037344"></p>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[anzhaoliang@hadoop01 ~]$ spark-shell --master spark://hadoop01:7077</span><br></pre></td></tr></tbody></table></figure>
 
                 
             </div>
@@ -493,7 +477,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">WuMing</a>
+                    <a href="/about" rel="external nofollow noreferrer">无名</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -503,7 +487,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://Anzl.github.io/2021/12/22/hello-world/">https://Anzl.github.io/2021/12/22/hello-world/</a>
+                    <a href="https://Anzl.github.io/2021/12/26/spark-ji-qun-fen-bu-shi-an-zhuang/">https://Anzl.github.io/2021/12/26/spark-ji-qun-fen-bu-shi-an-zhuang/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -516,7 +500,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">WuMing</a>
+                    <a href="/about" target="_blank">无名</a>
                     !
                 </span>
             </div>
@@ -540,7 +524,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/">
+                                    <span class="chip bg-color">大数据</span>
+                                </a>
+                            
+                                <a href="/tags/spark/">
+                                    <span class="chip bg-color">spark</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -983,7 +975,7 @@
                 <a href="/2021/12/26/hadoop-wan-quan-fen-bu-shi-an-zhuang/">
                     <div class="card-image">
                         
-                        <img src="/source/images/1.jpg" class="responsive-img" alt="hadoop完全分布式安装">
+                        <img src="/images/1.jpg" class="responsive-img" alt="hadoop完全分布式安装">
                         
                         <span class="card-title">hadoop完全分布式安装</span>
                     </div>
@@ -1032,34 +1024,49 @@
                 本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2021/12/22/hello-world/">
+                <a href="/2021/12/26/spark-ji-qun-fen-bu-shi-an-zhuang/">
                     <div class="card-image">
                         
+                        <img src="/images/spark/1.jpg" class="responsive-img" alt="Spark集群环境搭建">
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">Spark集群环境搭建</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            Spark集群环境搭建
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-26
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            WuMing
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/" class="post-category">
+                                    大数据
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/">
+                        <span class="chip bg-color">大数据</span>
+                    </a>
+                    
+                    <a href="/tags/spark/">
+                        <span class="chip bg-color">spark</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1088,100 +1095,6 @@
 
 <script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
-
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget card" style="background-color: white;">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
-
-
-<script src="/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
-</script>
 
     
 
