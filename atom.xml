@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>无名之辈</title>
   
-  <subtitle>路漫漫其修远今，吾将上下而求索</subtitle>
+  <subtitle>路漫漫其修远兮，吾将上下而求索</subtitle>
   <link href="https://anzl.github.io/atom.xml" rel="self"/>
   
   <link href="https://anzl.github.io/"/>
-  <updated>2021-12-28T13:10:39.458Z</updated>
+  <updated>2021-12-28T13:20:51.017Z</updated>
   <id>https://anzl.github.io/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hadoop完全分布式安装</title>
-    <link href="https://anzl.github.io/2021/12/26/hadoop-wan-quan-fen-bu-shi-an-zhuang/"/>
-    <id>https://anzl.github.io/2021/12/26/hadoop-wan-quan-fen-bu-shi-an-zhuang/</id>
-    <published>2021-12-26T02:53:00.000Z</published>
-    <updated>2021-12-28T13:10:39.458Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;hadoop完全分布式安装&quot;&gt;&lt;a href=&quot;#hadoop完全分布式安装&quot; class=&quot;headerlink&quot; title=&quot;hadoop完全分布式安装&quot;&gt;&lt;/a&gt;hadoop完全分布式安装&lt;/h1&gt;&lt;h2 id=&quot;一、准备工作&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="大数据" scheme="https://anzl.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
-    
-    
-    <category term="大数据" scheme="https://anzl.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
-    
-    <category term="hadoop" scheme="https://anzl.github.io/tags/hadoop/"/>
-    
-  </entry>
   
   <entry>
     <title>Spark集群环境搭建</title>
@@ -67,6 +40,33 @@
     <category term="大数据" scheme="https://anzl.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
     <category term="spark" scheme="https://anzl.github.io/tags/spark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hadoop完全分布式安装</title>
+    <link href="https://anzl.github.io/2021/12/26/hadoop-wan-quan-fen-bu-shi-an-zhuang/"/>
+    <id>https://anzl.github.io/2021/12/26/hadoop-wan-quan-fen-bu-shi-an-zhuang/</id>
+    <published>2021-12-26T02:53:00.000Z</published>
+    <updated>2021-12-28T13:10:39.458Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hadoop完全分布式安装&quot;&gt;&lt;a href=&quot;#hadoop完全分布式安装&quot; class=&quot;headerlink&quot; title=&quot;hadoop完全分布式安装&quot;&gt;&lt;/a&gt;hadoop完全分布式安装&lt;/h1&gt;&lt;h2 id=&quot;一、准备工作&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="大数据" scheme="https://anzl.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+    <category term="大数据" scheme="https://anzl.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    <category term="hadoop" scheme="https://anzl.github.io/tags/hadoop/"/>
     
   </entry>
   
